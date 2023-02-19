@@ -30,12 +30,12 @@ public abstract class GameManagerBase : MonoBehaviour
 
     protected virtual void Awake()
     {
-        ChangeState(GameState.AppAwake);
+        
     }
 
     protected virtual void Start()
     {
-        
+        ChangeState(GameState.AppAwake);
     }
 
     protected virtual void Update()
